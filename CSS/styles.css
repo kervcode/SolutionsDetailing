@@ -1,0 +1,45 @@
+/* import font */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+/* Global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li, 
+a {
+  list-style: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Lato', sans-serif;
+}
+
+header {
+  background-color: white;
+  color: #000;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  background-color: wh;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 30px;
+  font-weight: 400;
+}
+
+nav li:hover {
+  font-weight: 900;
+}
